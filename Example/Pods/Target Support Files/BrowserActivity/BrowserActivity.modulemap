@@ -1,0 +1,6 @@
+framework module BrowserActivity {
+  umbrella header "BrowserActivity-umbrella.h"
+
+  export *
+  module * { export * }
+}

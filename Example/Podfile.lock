@@ -1,0 +1,16 @@
+PODS:
+  - BrowserActivity (1.0.0)
+
+DEPENDENCIES:
+  - BrowserActivity (from `../`)
+
+EXTERNAL SOURCES:
+  BrowserActivity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BrowserActivity: db0c1dbb9655ec6e205a7a520adbb82654a1fd6c
+
+PODFILE CHECKSUM: e617cfe10e77692ebd29732219e63c1bc587cd13
+
+COCOAPODS: 1.1.1
