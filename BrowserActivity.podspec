@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BrowserActivity'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Custom UIActivity implementations to show "Open in Safari" and "Open in Chrome" options in the list of activities.'
   s.description      = <<-DESC
 # BrowserActivity
