@@ -1,5 +1,5 @@
 PODS:
-  - BrowserActivity (1.0.0)
+  - BrowserActivity (1.0.1)
 
 DEPENDENCIES:
   - BrowserActivity (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BrowserActivity: db0c1dbb9655ec6e205a7a520adbb82654a1fd6c
+  BrowserActivity: b8c0e853e74af703eaa3a0dc68d4eb73b06ec5a4
 
 PODFILE CHECKSUM: e617cfe10e77692ebd29732219e63c1bc587cd13
 

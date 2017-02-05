@@ -12,10 +12,11 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		88AFD41417EA15C637CF709B /* Pods_BrowserActivity_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833BC1FDAE0C7E8656812DAA /* Pods_BrowserActivity_Example.framework */; };
+		E75B4A225B022EA855F3F844 /* Pods_BrowserActivity_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013CC8D29582DDDF6D48379F /* Pods_BrowserActivity_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		013CC8D29582DDDF6D48379F /* Pods_BrowserActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowserActivity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AF737E7CAB0551FFA65274 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BrowserActivity_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserActivity_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -24,7 +25,6 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		833BC1FDAE0C7E8656812DAA /* Pods_BrowserActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowserActivity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A22E5D146E751C23211E823 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B8FAABEAA1A0AAFA6DB18B7 /* Pods-BrowserActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowserActivity_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrowserActivity_Example/Pods-BrowserActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D782F03E0A9F080F9793AFDE /* BrowserActivity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BrowserActivity.podspec; path = ../BrowserActivity.podspec; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AFD41417EA15C637CF709B /* Pods_BrowserActivity_Example.framework in Frameworks */,
+				E75B4A225B022EA855F3F844 /* Pods_BrowserActivity_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 		EFB4EB0E44492AA69E77DCD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				833BC1FDAE0C7E8656812DAA /* Pods_BrowserActivity_Example.framework */,
+				013CC8D29582DDDF6D48379F /* Pods_BrowserActivity_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
