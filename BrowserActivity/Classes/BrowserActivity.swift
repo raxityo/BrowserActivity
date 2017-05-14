@@ -45,3 +45,8 @@ public class BrowserActivity: UIActivity {
         return activities
     }
 }
+
+public extension UIActivityType {
+    static let openInGoogleChrome = UIActivityType(rawValue: "com.raxityo.BrowserActivity.openInGoogleChrome")
+    static let openInSafari = UIActivityType(rawValue: "com.raxityo.BrowserActivity.openInSafari")
+}                                                       

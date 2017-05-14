@@ -21,4 +21,8 @@ public class SafariActivity: BrowserActivity {
             return UIImage(named: "icon_safari", in: Bundle(for: self.classForCoder), compatibleWith: nil)
         }
     }
+    
+    override public var activityType: UIActivityType {
+        return UIActivityType.openInSafari
+    }
 }

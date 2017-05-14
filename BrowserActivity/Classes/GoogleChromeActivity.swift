@@ -35,4 +35,8 @@ public class GoogleChromeActivity: BrowserActivity {
             return UIImage(named: "icon_chrome", in: Bundle(for: self.classForCoder), compatibleWith: nil)
         }
     }
+
+    override public var activityType: UIActivityType {
+        return UIActivityType.openInGoogleChrome
+    }
 }
