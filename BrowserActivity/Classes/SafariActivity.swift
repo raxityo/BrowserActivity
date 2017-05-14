@@ -1,5 +1,5 @@
 //
-//  GoogleChromeActivity.swift
+//  SafariActivity.swift
 //  The Tech Time
 //
 //  Created by Rakshit Majithiya on 1/11/17.
