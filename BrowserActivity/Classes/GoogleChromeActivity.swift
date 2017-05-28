@@ -1,5 +1,5 @@
 //
-//  GoogelChromeActivity.swift
+//  GoogleChromeActivity.swift
 //  The Tech Time
 //
 //  Created by Rakshit Majithiya on 1/11/17.
@@ -34,5 +34,9 @@ public class GoogleChromeActivity: BrowserActivity {
         get {
             return UIImage(named: "icon_chrome", in: Bundle(for: self.classForCoder), compatibleWith: nil)
         }
+    }
+
+    override public var activityType: UIActivityType {
+        return UIActivityType.openInGoogleChrome
     }
 }

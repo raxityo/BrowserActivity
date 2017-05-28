@@ -1,5 +1,5 @@
 //
-//  GoogleChromeActivity.swift
+//  SafariActivity.swift
 //  The Tech Time
 //
 //  Created by Rakshit Majithiya on 1/11/17.
@@ -20,5 +20,9 @@ public class SafariActivity: BrowserActivity {
         get {
             return UIImage(named: "icon_safari", in: Bundle(for: self.classForCoder), compatibleWith: nil)
         }
+    }
+    
+    override public var activityType: UIActivityType {
+        return UIActivityType.openInSafari
     }
 }
