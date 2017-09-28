@@ -35,23 +35,23 @@
 		108EE25BCEA55EE19D7B7753488E4220 /* Pods-BrowserActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrowserActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		273F347FE3D0DCF745ED21FAADA31852 /* BrowserActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrowserActivity-prefix.pch"; sourceTree = "<group>"; };
 		2C0CC4EAC28811274E849498E5829417 /* Pods-BrowserActivity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrowserActivity_Example-dummy.m"; sourceTree = "<group>"; };
-		4353495D95AE4515DD8C63F04C05B4E1 /* BrowserActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BrowserActivity.framework; path = BrowserActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4353495D95AE4515DD8C63F04C05B4E1 /* BrowserActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BrowserActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4933ED465D891B2448B5BAD55C98C74E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6435AE054B9847610D1649C3A80EC2A2 /* BrowserActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BrowserActivity.xcconfig; sourceTree = "<group>"; };
 		825529670014539B7A50195DE7FEAB9F /* Pods-BrowserActivity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrowserActivity_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8457CDCA905FFF7044385358EAE840B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85985578073EC6FC7D2465C22E0A4174 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86223BB2CF75F50094B725293B9538C8 /* BrowserActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BrowserActivity.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE311DCDB64C67E97F4877070548BDF /* Pods-BrowserActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrowserActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A63246608B5B88CAD51BA900CBE3D97C /* Pods-BrowserActivity_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrowserActivity_Example-resources.sh"; sourceTree = "<group>"; };
 		A7B1048C452B831D4AD22843DCFA82AE /* BrowserActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BrowserActivity-dummy.m"; sourceTree = "<group>"; };
 		ABBCC5E5D81DA56B73A5D6854B95BEB4 /* BrowserActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrowserActivity-umbrella.h"; sourceTree = "<group>"; };
 		B9F70DD8F88F66EC9C5BF576ECA621E8 /* Pods-BrowserActivity_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BrowserActivity_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C311531E97896C52268F6DBE0854608F /* Pods-BrowserActivity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BrowserActivity_Example.modulemap"; sourceTree = "<group>"; };
-		C68C6F914117DA1BE056E0505DFB65AA /* Pods_BrowserActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BrowserActivity_Example.framework; path = "Pods-BrowserActivity_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C311531E97896C52268F6DBE0854608F /* Pods-BrowserActivity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BrowserActivity_Example.modulemap"; sourceTree = "<group>"; };
+		C68C6F914117DA1BE056E0505DFB65AA /* Pods_BrowserActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowserActivity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAA0FB3AFB8E71AC11B31DACC940069D /* BrowserActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BrowserActivity.modulemap; sourceTree = "<group>"; };
+		DAA0FB3AFB8E71AC11B31DACC940069D /* BrowserActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BrowserActivity.modulemap; sourceTree = "<group>"; };
 		DF82C3373B1226BE2D16A4E2B0B130D3 /* GoogleChromeActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoogleChromeActivity.swift; sourceTree = "<group>"; };
 		F017DD2F502AFFE722F2FBA6B698CBAD /* Pods-BrowserActivity_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrowserActivity_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,7 +126,6 @@
 				DF82C3373B1226BE2D16A4E2B0B130D3 /* GoogleChromeActivity.swift */,
 				015CFA3E737F094CBD65C71FC8718861 /* SafariActivity.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -162,7 +161,6 @@
 			children = (
 				4933ED465D891B2448B5BAD55C98C74E /* Assets.xcassets */,
 			);
-			name = BrowserActivity;
 			path = BrowserActivity;
 			sourceTree = "<group>";
 		};
@@ -195,7 +193,6 @@
 			children = (
 				3B6A950F32610CF9BEA7B4F3521C3ED1 /* Classes */,
 			);
-			name = BrowserActivity;
 			path = BrowserActivity;
 			sourceTree = "<group>";
 		};
@@ -274,6 +271,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4C03D3C00F7DC3DECEFD216988CF0643 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -396,7 +398,8 @@
 				PRODUCT_NAME = BrowserActivity;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -513,7 +516,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
