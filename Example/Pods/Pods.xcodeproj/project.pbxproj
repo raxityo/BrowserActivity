@@ -10,6 +10,8 @@
 		06587C928FD137BCC165337B0E7E493B /* SafariActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015CFA3E737F094CBD65C71FC8718861 /* SafariActivity.swift */; };
 		06CB8077883D4BB46E7796C85FC0823D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4933ED465D891B2448B5BAD55C98C74E /* Assets.xcassets */; };
 		3700D03CBB4016F462460F008A46B864 /* Pods-BrowserActivity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F017DD2F502AFFE722F2FBA6B698CBAD /* Pods-BrowserActivity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D519723203C9D0300DE0937 /* FirefoxActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D519722203C9D0300DE0937 /* FirefoxActivity.swift */; };
+		4D519725203C9F7500DE0937 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D519724203C9F7500DE0937 /* StringExtensions.swift */; };
 		7D875FA6B3B2654708E10259E2BA36D1 /* GoogleChromeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82C3373B1226BE2D16A4E2B0B130D3 /* GoogleChromeActivity.swift */; };
 		9782CFA9D06FA052C0A224FA2C540D1C /* BrowserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86223BB2CF75F50094B725293B9538C8 /* BrowserActivity.swift */; };
 		A5AEE3397C367DA373E0DFEA4B0B6304 /* Pods-BrowserActivity_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CC4EAC28811274E849498E5829417 /* Pods-BrowserActivity_Example-dummy.m */; };
@@ -37,6 +39,8 @@
 		2C0CC4EAC28811274E849498E5829417 /* Pods-BrowserActivity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrowserActivity_Example-dummy.m"; sourceTree = "<group>"; };
 		4353495D95AE4515DD8C63F04C05B4E1 /* BrowserActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BrowserActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4933ED465D891B2448B5BAD55C98C74E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D519722203C9D0300DE0937 /* FirefoxActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirefoxActivity.swift; sourceTree = "<group>"; };
+		4D519724203C9F7500DE0937 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		6435AE054B9847610D1649C3A80EC2A2 /* BrowserActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BrowserActivity.xcconfig; sourceTree = "<group>"; };
 		825529670014539B7A50195DE7FEAB9F /* Pods-BrowserActivity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrowserActivity_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8457CDCA905FFF7044385358EAE840B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				86223BB2CF75F50094B725293B9538C8 /* BrowserActivity.swift */,
 				DF82C3373B1226BE2D16A4E2B0B130D3 /* GoogleChromeActivity.swift */,
 				015CFA3E737F094CBD65C71FC8718861 /* SafariActivity.swift */,
+				4D519722203C9D0300DE0937 /* FirefoxActivity.swift */,
+				4D519724203C9F7500DE0937 /* StringExtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,7 +276,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 				TargetAttributes = {
 					4C03D3C00F7DC3DECEFD216988CF0643 = {
 						LastSwiftMigration = 0900;
@@ -319,8 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D519725203C9F7500DE0937 /* StringExtensions.swift in Sources */,
 				B9B2DA1D776C5E71AF860D4EC3DBD995 /* BrowserActivity-dummy.m in Sources */,
 				9782CFA9D06FA052C0A224FA2C540D1C /* BrowserActivity.swift in Sources */,
+				4D519723203C9D0300DE0937 /* FirefoxActivity.swift in Sources */,
 				7D875FA6B3B2654708E10259E2BA36D1 /* GoogleChromeActivity.swift in Sources */,
 				06587C928FD137BCC165337B0E7E493B /* SafariActivity.swift in Sources */,
 			);
@@ -342,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 108EE25BCEA55EE19D7B7753488E4220 /* Pods-BrowserActivity_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -415,19 +424,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -441,6 +460,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -455,20 +475,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -528,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DE311DCDB64C67E97F4877070548BDF /* Pods-BrowserActivity_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";

@@ -42,11 +42,16 @@ public class BrowserActivity: UIActivity {
             activities.append(GoogleChromeActivity())
         }
 
+        if FirefoxActivity.isFirefoxInstalled {
+            activities.append(FirefoxActivity())
+        }
+
         return activities
     }
 }
 
 public extension UIActivityType {
-    static let openInGoogleChrome = UIActivityType(rawValue: "com.raxityo.BrowserActivity.openInGoogleChrome")
     static let openInSafari = UIActivityType(rawValue: "com.raxityo.BrowserActivity.openInSafari")
+    static let openInGoogleChrome = UIActivityType(rawValue: "com.raxityo.BrowserActivity.openInGoogleChrome")
+    static let openInFirefox = UIActivityType(rawValue: "com.raxityo.BrowserActivity.openInFirefox")
 }                                                       

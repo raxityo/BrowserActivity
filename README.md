@@ -38,10 +38,13 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "BrowserActivity"
 ```
-Add/append `googlechrome` and `googlechromes` schemes in your `Info.plist` under `LSApplicationQueriesSchemes`. For example:
+
+Add/append `googlechrome`, `googlechromes` and `firefox` schemes in your `Info.plist` under `LSApplicationQueriesSchemes`. For example:
+
 ```xml
-    <key>LSApplicationQueriesSchemes</key>
+	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>firefox</string>
 		<string>googlechrome</string>
 		<string>googlechromes</string>
 	</array>
