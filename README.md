@@ -7,7 +7,7 @@
 Custom `UIActivity` implementations to show "Open in Safari" and "Open in Chrome" options in the list of activities, implemented in Swift 4.0.
 Version 1.2.0 is latest Swift 3.0 compatible version of this pod.
 
-![Screenshot](/Example/screenshot.png)
+<img src="/Example/screenshot.png" alt="UIActivity Screenshot" width="350"/>
 
 ## Usage:
 ```swift
