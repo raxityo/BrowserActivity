@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BrowserActivity'
-  s.version          = '1.3.1'
+  s.version          = '1.4.0'
   s.summary          = 'Custom UIActivity implementations to show "Open in Safari", "Open in Chrome" and "Open in Firefox" options in the list of activities.'
   s.homepage         = 'https://github.com/raxityo/BrowserActivity'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
 
   s.source_files    = 'BrowserActivity/Classes/**/*'
   s.resources       = 'BrowserActivity/Assets.xcassets'
-  s.pod_target_xcconfig =  { 'SWIFT_VERSION' => '4.0' }
+  s.pod_target_xcconfig =  { 'SWIFT_VERSION' => '4.2' }
 end

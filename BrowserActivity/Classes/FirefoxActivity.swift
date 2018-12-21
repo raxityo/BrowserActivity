@@ -40,7 +40,7 @@ public class FirefoxActivity: BrowserActivity {
         }
     }
 
-    override public var activityType: UIActivityType {
-        return UIActivityType.openInFirefox
+    override public var activityType: UIActivity.ActivityType {
+        return UIActivity.ActivityType.openInFirefox
     }
 }
