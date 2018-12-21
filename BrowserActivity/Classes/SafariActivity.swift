@@ -22,7 +22,7 @@ public class SafariActivity: BrowserActivity {
         }
     }
     
-    override public var activityType: UIActivityType {
-        return UIActivityType.openInSafari
+    override public var activityType: UIActivity.ActivityType {
+        return UIActivity.ActivityType.openInSafari
     }
 }
