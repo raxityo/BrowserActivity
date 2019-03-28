@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BrowserActivity'
-  s.version          = '1.4.0'
+  s.version          = '1.5.0'
   s.summary          = 'Custom UIActivity implementations to show "Open in Safari", "Open in Chrome" and "Open in Firefox" options in the list of activities.'
   s.homepage         = 'https://github.com/raxityo/BrowserActivity'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
