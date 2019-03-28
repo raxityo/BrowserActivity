@@ -1,3 +1,4 @@
+platform :ios, '12.2'
 use_frameworks!
 
 target 'BrowserActivity_Example' do

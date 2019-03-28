@@ -4,10 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/BrowserActivity.svg?style=flat)](http://cocoapods.org/pods/BrowserActivity)
 [![Platform](https://img.shields.io/cocoapods/p/BrowserActivity.svg?style=flat)](http://cocoapods.org/pods/BrowserActivity)
 
-Custom `UIActivity` implementations to show "Open in Safari", "Open in Chrome" and "Open in Firefox" options in the list of activities, implemented in Swift 4.2.  
-
-Version `1.2.0` is the latest Swift 3.0 compatible version of this pod.  
-Version `1.3.1` is the latest Swift 4.0 compatible version of this pod.
+Custom `UIActivity` implementations to show "Open in Safari", "Open in Chrome" and "Open in Firefox" options in the list of activities, implemented in Swift 5.
 
 <img src="/Example/screenshot.png" alt="UIActivity Screenshot" width="350"/>
 
@@ -51,7 +48,6 @@ Add/append `googlechrome`, `googlechromes` and `firefox` schemes in your `Info.p
 		<string>googlechromes</string>
 	</array>
 ```
-
 
 ## Author
 
