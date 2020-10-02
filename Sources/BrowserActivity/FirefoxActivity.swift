@@ -6,13 +6,6 @@
 //
 
 import UIKit
-//
-//  GoogleChromeActivity.swift
-//  The Tech Time
-//
-//  Created by Rakshit Majithiya on 1/11/17.
-//
-//
 
 public class FirefoxActivity: BrowserActivity {
   static var isFirefoxInstalled: Bool {
@@ -30,7 +23,7 @@ public class FirefoxActivity: BrowserActivity {
   }
 
   override public var activityImage: UIImage? {
-    UIImage(named: "icon_firefox", in: Bundle.module, compatibleWith: nil)
+    UIImage(named: "icon_firefox", in: Bundle(for: classForCoder), compatibleWith: nil)
   }
 
   override public var activityType: UIActivity.ActivityType {
