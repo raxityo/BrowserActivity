@@ -15,7 +15,6 @@ let package = Package(
     targets: [
         .target(
             name: "BrowserActivity",
-            path: "BrowserActivity/Classes",
             resources: [
                 .process("Resources")
             ]
