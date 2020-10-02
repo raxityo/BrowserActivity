@@ -34,15 +34,15 @@
 /* Begin PBXFileReference section */
 		2872CCCBC7088F26AEF40C20035F6047 /* Pods-BrowserActivity_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrowserActivity_Example-umbrella.h"; sourceTree = "<group>"; };
 		33965CFE14AAA87A81ED26E00EF60B0F /* BrowserActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrowserActivity-prefix.pch"; sourceTree = "<group>"; };
-		3CE2E2C4DD28C741F58383D645B19599 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3CE2E2C4DD28C741F58383D645B19599 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3DAD8C24586A955CE3E80F517BF0AAF3 /* Pods-BrowserActivity_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrowserActivity_Example-Info.plist"; sourceTree = "<group>"; };
-		4E0AF5980652C99FDC0B8256CE777B6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E0AF5980652C99FDC0B8256CE777B6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		572E16913D0DA96AD0E821427A2A865C /* Pods-BrowserActivity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrowserActivity_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5B4A203D222F9B6EB3D2BB46DAF183A9 /* BrowserActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BrowserActivity.framework; path = BrowserActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4A203D222F9B6EB3D2BB46DAF183A9 /* BrowserActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BrowserActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF7808271DFDCE83DEB599757D68013 /* Pods-BrowserActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrowserActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		882842BB552A15A46037CDCAC97F0741 /* BrowserActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrowserActivity-umbrella.h"; sourceTree = "<group>"; };
 		9643BB1B0836506222E6859851CFF295 /* FirefoxActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirefoxActivity.swift; path = BrowserActivity/Classes/FirefoxActivity.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F45CE066291A58606E28BCAFAC58156 /* BrowserActivity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BrowserActivity-Info.plist"; sourceTree = "<group>"; };
 		A16B2131EBFBFB5520E26F9735BB9BD1 /* BrowserActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BrowserActivity.modulemap; sourceTree = "<group>"; };
 		A5E17F683F99C3716F7905C1B7D209B2 /* Pods-BrowserActivity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BrowserActivity_Example.modulemap"; sourceTree = "<group>"; };
@@ -51,15 +51,15 @@
 		C229C0F84F124593BCFD24A16986A480 /* Pods-BrowserActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrowserActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFAD5CE9C2809305F03682C83CC33279 /* BrowserActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BrowserActivity.xcconfig; sourceTree = "<group>"; };
-		D529DD328E4C01389C65D78BC12458FB /* Pods_BrowserActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BrowserActivity_Example.framework; path = "Pods-BrowserActivity_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D529DD328E4C01389C65D78BC12458FB /* Pods_BrowserActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowserActivity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B674352A4D3067FBEC1C2010C86B0B /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = BrowserActivity/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		E28FEB88E06573AB30E73A5CC1E87624 /* GoogleChromeActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleChromeActivity.swift; path = BrowserActivity/Classes/GoogleChromeActivity.swift; sourceTree = "<group>"; };
 		EC4DB9C50442205A1B284C7103E27959 /* BrowserActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BrowserActivity-dummy.m"; sourceTree = "<group>"; };
-		ED7CE21A773E6891937A667EF008A442 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BrowserActivity/Assets.xcassets; sourceTree = "<group>"; };
+		ED7CE21A773E6891937A667EF008A442 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE363972041DAB1D3BAFEDE0FBFECC85 /* BrowserActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrowserActivity.swift; path = BrowserActivity/Classes/BrowserActivity.swift; sourceTree = "<group>"; };
 		EFABE71822FC4F8CE6C0BFBFD21ADE92 /* Pods-BrowserActivity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrowserActivity_Example-dummy.m"; sourceTree = "<group>"; };
 		F1EE7123433E21C410943AD9BE6D1881 /* SafariActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariActivity.swift; path = BrowserActivity/Classes/SafariActivity.swift; sourceTree = "<group>"; };
-		FC34BA6C8B113BE3337D2D1B37057011 /* BrowserActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BrowserActivity.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC34BA6C8B113BE3337D2D1B37057011 /* BrowserActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BrowserActivity.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,14 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		084A0864543348D9652BBEB9B291F6E8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				ED7CE21A773E6891937A667EF008A442 /* Assets.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		0DC265A0C6A955E7287AF7890AF92EC3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +98,15 @@
 				4E0AF5980652C99FDC0B8256CE777B6F /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4D9E56172526B19D00ACAEA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CE21A773E6891937A667EF008A442 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = BrowserActivity/Resources;
 			sourceTree = "<group>";
 		};
 		51EA4227D927C969DBF8592F892F9720 /* Targets Support Files */ = {
@@ -192,7 +193,7 @@
 				F1EE7123433E21C410943AD9BE6D1881 /* SafariActivity.swift */,
 				D7B674352A4D3067FBEC1C2010C86B0B /* StringExtensions.swift */,
 				42F226CB547165B05D3E567451CA9C9E /* Pod */,
-				084A0864543348D9652BBEB9B291F6E8 /* Resources */,
+				4D9E56172526B19D00ACAEA5 /* Resources */,
 				C4688060D09FB459AA238EFEED65115A /* Support Files */,
 			);
 			name = BrowserActivity;
@@ -272,6 +273,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -426,8 +428,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

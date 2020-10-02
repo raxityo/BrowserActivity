@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.screenshots     = ['https://raw.githubusercontent.com/raxityo/BrowserActivity/master/Example/screenshot.png']
 
   s.source_files    = 'BrowserActivity/Classes/**/*'
-  s.resources       = 'BrowserActivity/Assets.xcassets'
-  s.pod_target_xcconfig =  { 'SWIFT_VERSION' => '5.0' }
+  s.resources       = 'BrowserActivity/Resources/Assets.xcassets'
+  s.pod_target_xcconfig =  { 'SWIFT_VERSION' => '5.3' }
 end

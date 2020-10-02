@@ -27,7 +27,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9A22E5D146E751C23211E823 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B8FAABEAA1A0AAFA6DB18B7 /* Pods-BrowserActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowserActivity_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrowserActivity_Example/Pods-BrowserActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D782F03E0A9F080F9793AFDE /* BrowserActivity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BrowserActivity.podspec; path = ../BrowserActivity.podspec; sourceTree = "<group>"; };
+		D782F03E0A9F080F9793AFDE /* BrowserActivity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BrowserActivity.podspec; path = ../BrowserActivity.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE9DE449E23A712AC0FC6B2B /* Pods-BrowserActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowserActivity_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrowserActivity_Example/Pods-BrowserActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
