@@ -5,7 +5,7 @@
 //  Created by Rakshit Majithiya on 2/20/18.
 //
 
-import Foundation
+import UIKit
 extension String {
 
     // Exetension derived from:

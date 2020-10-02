@@ -5,7 +5,7 @@
 //  Created by Rakshit Majithiya on 2/20/18.
 //
 
-import Foundation
+import UIKit
 //
 //  GoogleChromeActivity.swift
 //  The Tech Time
@@ -14,7 +14,7 @@ import Foundation
 //
 //
 
-import Foundation
+import UIKit
 
 public class FirefoxActivity: BrowserActivity {
 

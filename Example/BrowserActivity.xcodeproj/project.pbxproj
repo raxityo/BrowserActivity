@@ -145,6 +145,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = U5J589W24W;
 						LastSwiftMigration = 1020;
 					};
 				};
@@ -361,10 +362,11 @@
 			baseConfigurationReference = FE9DE449E23A712AC0FC6B2B /* Pods-BrowserActivity_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5J589W24W;
 				INFOPLIST_FILE = BrowserActivity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raxityo.BrowserActivity-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raxityo.BrowserActivity.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -375,10 +377,11 @@
 			baseConfigurationReference = 9B8FAABEAA1A0AAFA6DB18B7 /* Pods-BrowserActivity_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5J589W24W;
 				INFOPLIST_FILE = BrowserActivity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raxityo.BrowserActivity-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raxityo.BrowserActivity.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
