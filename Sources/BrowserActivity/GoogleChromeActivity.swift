@@ -29,7 +29,7 @@ public class GoogleChromeActivity: BrowserActivity {
   }
 
   override public var activityImage: UIImage? {
-    UIImage(named: "icon_chrome", in: Bundle.moduleCompat, compatibleWith: nil)
+    UIImage(named: "icon_chrome", in: Bundle.module, compatibleWith: nil)
   }
 
   override public var activityType: UIActivity.ActivityType {
