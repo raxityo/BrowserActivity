@@ -14,7 +14,7 @@ public class SafariActivity: BrowserActivity {
   }
 
   override public var activityImage: UIImage? {
-    UIImage(named: "icon_safari", in: Bundle(for: classForCoder), compatibleWith: nil)
+    UIImage(named: "icon_safari", in: Bundle.moduleCompat, compatibleWith: nil)
   }
 
   override public var activityType: UIActivity.ActivityType {
