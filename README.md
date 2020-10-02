@@ -2,7 +2,7 @@
 
 Custom `UIActivity` implementations to show "Open in Safari", "Open in Chrome" and "Open in Firefox" options in the list of activities, implemented in Swift 5.3
 
-<img src="/Example/screenshot.jpeg" alt="UIActivity Screenshot" width="350"/>
+<img src="/screenshot/screenshot.jpeg" alt="UIActivity Screenshot" width="350"/>
 
 ## Usage:
 ```swift
