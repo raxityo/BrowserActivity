@@ -23,7 +23,7 @@ public class FirefoxActivity: BrowserActivity {
   }
 
   override public var activityImage: UIImage? {
-    UIImage(named: "icon_firefox", in: Bundle.moduleCompat, compatibleWith: nil)
+    UIImage(named: "icon_firefox", in: Bundle(for: FirefoxActivity.self), compatibleWith: nil)
   }
 
   override public var activityType: UIActivity.ActivityType {

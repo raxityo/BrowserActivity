@@ -16,7 +16,7 @@ let package = Package(
     .target(
       name: "BrowserActivity",
       resources: [
-        .process("Resources"),
+        .copy("Resources"),
       ]
     ),
   ]
